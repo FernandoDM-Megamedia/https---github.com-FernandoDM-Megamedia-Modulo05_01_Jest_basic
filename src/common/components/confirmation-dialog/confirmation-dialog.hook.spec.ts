@@ -3,7 +3,7 @@ import {act, renderHook} from '@testing-library/react-hooks'
 import {useConfirmationDialog} from './confirmation-dialog.hook'
 import { createEmptyLookup, Lookup } from 'common/models';
 
-describe('PRUEBAS ---------------> HOOK', () => {
+describe('PRUEBAS ---------------> HOOK (dudas)', () => {
   it('caso de prueba .-  no esta abierto  ', () => {
     // Arrange
     
