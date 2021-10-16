@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event'
 import { ConfirmationDialogComponent } from './confirmation-dialog.component'
 
 describe('PRUEBAS ---------------> COMPONENT', () => {
-  it('Popuop contiene titulo y botones', () => {
+  it('Popup contiene titulo y botones', () => {
     // Arrange
     const props = {
       isOpen: true,
