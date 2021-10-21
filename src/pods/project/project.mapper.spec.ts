@@ -24,16 +24,6 @@ describe('PRUEBAS ---------------> MAPPER', () => {
       // Assert
       expect(result).toEqual(viewModel.createEmptyProject())
     });
-    it('nos tiene que retornar .- vacio (duda)', () => {
-      // Arrange
-      const project: apiModel.Project = { id:'', name: '', isActive: false, employees: []};
-      
-      // Act
-      const result = mapProjectFromApiToVm(project).employees.length;
-
-      // Assert
-      expect(result).toEqual(0)
-    });
     it('nos tiene que retornar .- datos', () => {
       // Arrange
       const mockEmployeeSummaryList = [

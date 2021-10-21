@@ -29,6 +29,8 @@ describe('PRUEBAS ---------------> COMPONENT', () => {
     expect(buttonCerrar).toBeInTheDocument();
   });
   it('Se pulsa el boton de Aceptar', () => {
+
+    //nota si is open esta a false 
     // Arrange
     const props = {
       isOpen: true,
